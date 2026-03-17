@@ -190,7 +190,7 @@ def main():
     
     if os.path.exists(csv_file):
         try:
-            df = pd.read_csv(csv_file).head(300)
+            df = pd.read_csv(csv_file).head(350)
             for i, row in df.iterrows():
                 jobs.append({
                     "id": f"k{i}",
@@ -229,7 +229,7 @@ def main():
         index.upsert(vectors)
         st.session_state.index = index
         st.session_state.vectors_loaded = True
-        status_text.text(f"✅ Indexed {len(jobs)} jobs in Endee!")
+        status_text.text(f"✅ Indexed {len(jobs)}+ jobs in Endee!")
     else:
         index = st.session_state.index
 
