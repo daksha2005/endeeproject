@@ -232,8 +232,8 @@ def main():
         index = st.session_state.index
 
     # Resume Input
-    st.subheader("📝 Paste your Resume or Skills")
-    resume_text = st.text_area("Enter technical skills, previous roles, or full resume content", 
+    st.subheader("🚀 Smart Profile Matcher")
+    resume_text = st.text_area("Analyze your professional profile (Skills, Experience, or Bio)", 
                               placeholder="e.g., Python Developer with experience in Django, React, and AWS. Proficient in machine learning libraries like scikit-learn...",
                               height=200)
 
