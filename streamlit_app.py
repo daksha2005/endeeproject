@@ -183,7 +183,7 @@ def main():
     index = MockEndeeIndex("linkedin_jobs")
 
     # Load and index data
-    jobs = get_hardcoded_jobs()
+    jobs = []
     
     # Try to load either the sample or the full CSV
     csv_file = "postings_sample.csv" if os.path.exists("postings_sample.csv") else "postings.csv"
