@@ -188,7 +188,7 @@ def main():
     # Optional: Load from CSV if exists
     if os.path.exists("postings.csv"):
         try:
-            df = pd.read_csv("postings.csv").head(100)
+            df = pd.read_csv("postings.csv").head(500)
             for i, row in df.iterrows():
                 jobs.append({
                     "id": f"k{i}",
