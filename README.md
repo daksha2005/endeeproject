@@ -67,7 +67,13 @@ This app serves as a real-time deployment of the Endee engine, providing a premi
 pip install -r requirements.txt
 streamlit run streamlit_app.py
 ```
+🚀 Live Demo
 
+Experience the AI Job Resume Matcher in action!
+Test your resume against 300+ job postings:
+
+👉 Launch the App:
+https://endeeproject-4mzippyaousuyxjbdhe6qw.streamlit.app/
 ---
 
 ## 📂 Project Structure
